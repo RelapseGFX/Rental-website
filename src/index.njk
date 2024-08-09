@@ -1,0 +1,39 @@
+---
+title: My homepage
+layout: 'base.njk'
+---
+
+
+    <section class="hero">
+        <div class="container">
+                <div class="hero-content flow">
+                    <h1 class="section-title">Lorem Ipsum</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <div class="flex-group">
+                        <a href="#featured-rentals" class="btn btn--primary">Featured Rentals</a>
+                        <a href="/rentals/" class="btn btn--neutral">Most Recent Rentals</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/Rectangle 1.jpg" class="hero_image" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="featured-rentals" class="featured-rentals">
+        <div class="container">
+        <div class="upper-part text-center flow">
+            <h1 class="section-title">Featured Rentals</h1>
+            <p>Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+        </div>
+        <ul role="list" class="articles-list">
+        
+            {%- for post in collections.featured | reverse -%}
+              {% include 'article-snippet.njk' %}
+            {%- endfor %}
+    
+        </ul>
+    </div>
+    </section>
+    

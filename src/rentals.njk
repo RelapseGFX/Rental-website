@@ -1,0 +1,19 @@
+---
+title: Rentals
+layout: 'base.njk'
+---
+
+<section class="recent-rentals">
+    <div class="container">
+      <div class="upper-part flow">
+            <h1 class="section-title">Recent Rentals</h1>
+      </div>
+      <ul role="list" class="articles-list">
+        
+        {%- for post in collections.post | reverse -%}
+          {% include 'article-snippet.njk' %}
+        {%- endfor %}
+
+      </ul>
+    </div>
+        

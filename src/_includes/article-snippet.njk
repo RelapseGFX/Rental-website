@@ -1,0 +1,14 @@
+<li>
+    <article class="snippet">
+        <div class="thubnail-rental"><a href="{{ post.url }}"><image src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image"></image></a></div>
+        <h2 class="snippet-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+        <p>{{ post.data.location }}</p>
+        <div class="flex-group">
+            <p><span>{{ post.data.bedrooms }}</span>
+            <p><span>{{ post.data.bathrooms }}</span>
+            <p><span>{{ post.data.squareFeet }}</span>
+            <p><span>{{ post.data.terrace }}</span>
+        </div>
+        <p><span>from <span class="snippet-price">{{ post.data.price }}</span></span>
+    </article>
+</li>
