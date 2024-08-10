@@ -8,7 +8,6 @@ squareFeet: 1,100
 terrace: 1
 carParking: 2
 floor: 1
-availableFrom: 2024-09-01
 tags: ["post", "featured"]
 image: /assets/rentals/modera-st.-petersburg.jpg
 imageAlt: View of the living room with large windows overlooking the lake
