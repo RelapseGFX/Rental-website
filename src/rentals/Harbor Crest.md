@@ -1,26 +1,41 @@
 ---
-title: Harbor Crest
-location: 24453 Lakeshore Blvd, Euclid, OH 44123
-price: $1,200/month
-bedrooms: 2
-bathrooms: 1.5
-squareFeet: 1,100
-terrace: 1
+contact:
+  name: John Doe
+  phone: (555) 123-4567
+  email: johndoe@rentalagency.com
 carParking: 2
+bathrooms: 1.5
+title: Harbor Crest
+location: Prishtina e Re, Veternik
+bedrooms: "1"
+bathroom: "1"
+tags:
+  - post
+  - featured
+squarefeet: "592.015"
+price: $600/month
+squareFeet: 1,100
 floor: 1
-availableFrom: 2024-09-01
-tags: ["post", "featured"]
-image: /assets/rentals/harbor-crest.jpg
+terrace: 1
 imageAlt: View of the living room with large windows overlooking the lake
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac turpis eu est molestie pharetra. Curabitur accumsan varius lectus et ultricies. Aliquam maximus metus enim, quis finibus lacus consequat et. Nulla vitae diam vel ante varius laoreet aliquam a dolor. Cras semper erat vitae elit faucibus finibus. Phasellus consequat, diam at porttitor dignissim, ante metus feugiat neque, eget accumsan tellus massa sed est. Aenean eget condimentum purus. Curabitur imperdiet arcu elit, id malesuada justo aliquam non. Curabitur ac nisi pretium, dictum dui non, dapibus elit. Donec molestie auctor tortor, quis interdum massa consectetur fermentum. Phasellus arcu velit, dapibus eu augue rhoncus, vehicula vulputate odio. Mauris a efficitur risus. Sed molestie ullamcorper suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-amenities: 
-  - "Covered parking"
-  - "Pet-friendly"
-  - "Swimming pool"
-contact: 
-  name: "John Doe"
-  phone: "(555) 123-4567"
-  email: "johndoe@rentalagency.com"
+availableFrom: 2024-09-01
+amenities:
+  - Covered parking
+  - Pet-friendly
+  - Swimming pool
+image: /assets/rentals/harbor-crest.jpg
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac
+  turpis eu est molestie pharetra. Curabitur accumsan varius lectus et
+  ultricies. Aliquam maximus metus enim, quis finibus lacus consequat et. Nulla
+  vitae diam vel ante varius laoreet aliquam a dolor. Cras semper erat vitae
+  elit faucibus finibus. Phasellus consequat, diam at porttitor dignissim, ante
+  metus feugiat neque, eget accumsan tellus massa sed est. Aenean eget
+  condimentum purus. Curabitur imperdiet arcu elit, id malesuada justo aliquam
+  non. Curabitur ac nisi pretium, dictum dui non, dapibus elit. Donec molestie
+  auctor tortor, quis interdum massa consectetur fermentum. Phasellus arcu
+  velit, dapibus eu augue rhoncus, vehicula vulputate odio. Mauris a efficitur
+  risus. Sed molestie ullamcorper suscipit. Vestibulum ante ipsum primis in
+  faucibus orci luctus et ultrices posuere cubilia curae;
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor lacus eu neque dapibus, vitae posuere libero fermentum. Nulla fermentum dignissim erat non fermentum. Suspendisse elit nunc, tempus pulvinar urna sed, ultrices congue ligula. Etiam egestas consequat est, interdum dapibus purus porttitor sed. Mauris placerat vehicula laoreet. Aenean sed mauris id est pulvinar ullamcorper sit amet eu justo. Nullam tellus ex, tincidunt quis lacinia sed, porttitor sit amet risus. Mauris ac massa tellus. In ac erat non mi suscipit fermentum at sit amet mi.
