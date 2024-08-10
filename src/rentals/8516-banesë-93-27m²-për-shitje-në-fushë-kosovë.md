@@ -12,6 +12,9 @@ floor: "3"
 price: $80,000
 image: /assets/rentals/76f50b99-7000-43de-a70f-20a956cc6ee7-lg.png
 imageAlt: ne shitje
+"amenities[0]": Covered parking
+"amenities[1]": Pet-friendly
+"amenities[2]": Swimming pool
 amenity1: Covered parking
 amenity2: Pet-friendly
 amenity3: Swimming pool
