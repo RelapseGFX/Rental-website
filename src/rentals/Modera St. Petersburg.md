@@ -17,10 +17,6 @@ amenities:
   - "Covered parking"
   - "Pet-friendly"
   - "Swimming pool"
-contact: 
-  name: "John Doe"
-  phone: "(555) 123-4567"
-  email: "johndoe@rentalagency.com"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor lacus eu neque dapibus, vitae posuere libero fermentum. Nulla fermentum dignissim erat non fermentum. Suspendisse elit nunc, tempus pulvinar urna sed, ultrices congue ligula. Etiam egestas consequat est, interdum dapibus purus porttitor sed. Mauris placerat vehicula laoreet. Aenean sed mauris id est pulvinar ullamcorper sit amet eu justo. Nullam tellus ex, tincidunt quis lacinia sed, porttitor sit amet risus. Mauris ac massa tellus. In ac erat non mi suscipit fermentum at sit amet mi.
