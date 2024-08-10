@@ -2,10 +2,10 @@
 title: Arlington Green (Indy Town)
 location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
-bedrooms: 2 Beds
-bathrooms: 1.5 Baths
-squareFeet: 1,100 ft²
-terrace: 1 Terra
+bedrooms: 2
+bathrooms: 1.5
+squareFeet: 1,100
+terrace: 1
 carParking: 2
 floor: 1
 availableFrom: 2024-09-01

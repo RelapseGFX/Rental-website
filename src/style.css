@@ -415,6 +415,11 @@ article a:hover {
 	object-fit: cover;
 }
 
+.amenities-group {
+	display: flex;
+	gap: .25em;
+}
+
 @media (min-width: 45em) {
 
 	.hero > div {

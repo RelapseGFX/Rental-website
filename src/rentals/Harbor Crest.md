@@ -2,10 +2,10 @@
 title: Harbor Crest
 location: 24453 Lakeshore Blvd, Euclid, OH 44123
 price: $1,200/month
-bedrooms: 2 Beds
-bathrooms: 1.5 Baths
-squareFeet: 1,100 ft²
-terrace: 1 Terra
+bedrooms: 2
+bathrooms: 1.5
+squareFeet: 1,100
+terrace: 1
 carParking: 2
 floor: 1
 availableFrom: 2024-09-01
