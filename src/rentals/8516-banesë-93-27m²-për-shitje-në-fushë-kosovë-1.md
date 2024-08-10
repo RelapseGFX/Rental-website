@@ -15,7 +15,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac t
 amenities:
   - "Covered parking"
   - "Pet-friendly"
-  - "Swimming"
+  - "Swimming pool"
 ---
 
 Ofrohet për shitje banesa me sipërfaqe 93.27 m² me lokacion në Fushë Kosovë, në Rrugën Lidhja e Prizrenit.
