@@ -22,6 +22,10 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Amenity 1", name: "amenity1", widget: "select", options: ["Covered parking", "Pet-friendly", "Swimming pool"] }
-      - { label: "Amenity 2", name: "amenity2", widget: "select", options: ["Covered parking", "Pet-friendly", "Swimming pool"] }
-      - { label: "Amenity 3", name: "amenity3", widget: "select", options: ["Covered parking", "Pet-friendly", "Swimming pool"] }
+      - label: "Amenities"
+        name: "amenities"
+        widget: "select"
+        options:
+          - { label: "Feature 1", value: "Covered parking" }
+          - { label: "Feature 2", value: "Pet friendly" }
+          - { label: "Feature 3", value: "Swimming pool" }
