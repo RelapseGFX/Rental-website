@@ -11,7 +11,6 @@ floor: 1
 tags: ["post", "featured"]
 image: /assets/rentals/harbor-crest.jpg
 imageAlt: View of the living room with large windows overlooking the lake
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac turpis eu est molestie pharetra. Curabitur accumsan varius lectus et ultricies. Aliquam maximus metus enim, quis finibus lacus consequat et. Nulla vitae diam vel ante varius laoreet aliquam a dolor. Cras semper erat vitae elit faucibus finibus. Phasellus consequat, diam at porttitor dignissim, ante metus feugiat neque, eget accumsan tellus massa sed est. Aenean eget condimentum purus. Curabitur imperdiet arcu elit, id malesuada justo aliquam non. Curabitur ac nisi pretium, dictum dui non, dapibus elit. Donec molestie auctor tortor, quis interdum massa consectetur fermentum. Phasellus arcu velit, dapibus eu augue rhoncus, vehicula vulputate odio. Mauris a efficitur risus. Sed molestie ullamcorper suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
 amenities:
   - "Covered parking"
   - "Pet-friendly"
