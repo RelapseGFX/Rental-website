@@ -59,6 +59,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -94,7 +101,7 @@ body {
   h3 {
 	font-family: var(--ff-heading);
 	font-weight: var(--fw-900);
-	line-height: 1.1;
+	line-height: 1.25;
   }
   
   strong {
@@ -134,7 +141,7 @@ body {
 }
 
 .section-title {
-	font-size: var(--fs-700);
+	font-size: var(--fs-900);
 }
 
 .stats-thubnail {
@@ -252,24 +259,216 @@ body {
 
 /* VIDEO */
 
-.background_video {
-	background-image: url(/src/assets/video-background-image.jpg);
+.the_building_tour {
+	background-image: url(assets/video-background-image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	mix-blend-mode: luminosity;
 }
 
-.thubnail-video {
-	width: 100%;
+.overlay {
+	border-image:
+	  linear-gradient(
+		hsl(120 7% 17% / .95),
+		hsl(120 7% 17% / .95))
+	  fill 1;
 }
 
-.video-group {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
-	max-width: 1035px;
+.index {
+	color: var(--clr-primary-400)
+}
+
+.material .section-title {
+	color: var(--clr-neutral-100);
+	margin-bottom: 30px;
+}
+
+.material {
+	padding: 10px;
+	text-align: center;
 }
 
 .video-thubnail {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	max-width: 1035px;
 	border: 15px solid white;
+	box-sizing: border-box;
+}
+
+.shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #292F29;
+	opacity: .3;
+}
+
+.tour-video-thubnail {
+	width: 100%;
+	min-height: 280px;
+	object-fit: cover;
+}
+
+.video-placeholder {
+	margin-top: -180px;
+	margin-bottom: 0px;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-title {
+	font-size: var(--fs-500);
+}
+
+.description {
+	color: #777;
+}
+
+.tour-group {
+	display: grid;
+}
+
+.image-tour1:nth-child(2) {
+	padding-top: 40px;
+}
+
+.tour-image {
+	width: 185px;
+	height: 185px;
+	object-fit: cover;
+	object-position: center center;
+	border-radius: 100px;
+	border-style: solid;
+	border-width: 0 0 0 10px;
+	border-color: var(--clr-primary-400);
+}
+
+.image-tour1 {
+	display: grid;
+	gap: 30px;
+	align-items: center;
+	justify-items: center;
+}
+
+.content-left-side {
+	text-align: center;
+}
+
+/* TRUSTED PARTNERS */
+
+.block-wrapper {
+	display: flex;
+	justify-content: space-around;
+	overflow-x: scroll;
+}
+
+.block-wrapper::-webkit-scrollbar {
+	width: 0;
+}
+
+.block-item {
+	display: grid;
+	place-items: center;
+	margin-right: 30px;
+	padding: 30px;
+}
+
+.block-item img {
+	width: 7rem;
+}
+
+.block-item:hover {
+	background: #F6F7F9;
+}
+
+.featured-partners {
+	background: white;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #eee;
+	padding: 35px 0;
+}
+
+/* FLOOR PLAN */
+
+.paragraph-block {
+	padding: 14px 28px;
+	display: inline-flex;
+	justify-content: space-between;
+	background: white;
+	width: 100%;
+}
+
+.paragraph-block:nth-child(even) {
+	background: #F6F7F9;
+}
+
+.title {
+	color: #777;
+}
+
+.text {
+	color: var(--clr-primary-400);
+	font-weight: var(--fw-700);
+}
+
+.plan-image {
+	display: inline-block;
+	max-width: 368px;
+	width: 100%;
+}
+
+.floor-info {
+	text-align: center;
+}
+
+.floor-info p {
+	color: #777;
+}
+
+.content-wrapper {
+	display: grid;
+	place-items: center;
+}
+
+.apartment-plans {
+	background: #F6F7F9;
+}
+
+/* FEATURED APARTMENTS */
+
+.apts-block {
+	position: relative;
+	display: grid;
+	margin: -30px auto 0;
+	padding: 25px;
+	background: white;
+	width: calc(100% - 40px);
+}
+
+.size {
+	position: absolute;
+	bottom: 100%;
+	right: 0;
+	padding: 11px 15px;
+	background-color: var(--clr-primary-400);
+	color: white;
+	font-size: 11px;
+	line-height: 1;
+	font-weight: 600;
+	text-transform: uppercase;
+
 }
 
 .snippet-title {
@@ -438,14 +637,11 @@ ul li {
 }
 
 .snippet {
-	display: grid;
-	gap: 1em;
 	grid-template-areas:
 	  "image"
 	  "title"
-	  "location"
-	  "details"
-	  "price";
+	  "floor"
+	  "sizing";
 	grid-template-rows: min-content min-content min-content 1fr;
 }
 
@@ -514,6 +710,7 @@ ul li {
 
 .description {
 	width: 100%;
+	font-size: var(--fs-300);
 }
 
 .feature-rental {
@@ -616,8 +813,6 @@ article a:hover {
 	gap: .25em;
 }
 
-
-
 @media (min-width: 45em) {
 
 	.col > div {
@@ -634,6 +829,18 @@ article a:hover {
 
 	.articles-list {
 		grid-template-columns: repeat(2, 2fr);
+	}
+
+	.image-tour1 {
+		grid-auto-flow: column;
+	}
+
+	.content-left-side {
+		text-align: left;
+	}
+
+	.block-item {
+		width: 100%;
 	}
 
 }
@@ -708,6 +915,36 @@ article a:hover {
 
 	.cards-group {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	.tour-group {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.image-tour1 {
+		padding: 60px 60px 0 0 ;
+		border-width: 1px 1px 0 0 ;
+		border-style: solid;
+		border-color: #eee;
+	}
+
+	.image-tour1:nth-child(2) {
+		padding: 60px 0 0 60px;
+		border-width: 1px 0 0 0 ;
+	}
+
+	.block-wrapper {
+		overflow-x: hidden;
+	}
+
+	.content-part > div {
+		grid-auto-flow: column;
+		grid-template-columns: 33.333% 35% 31.333%;
+		padding: 90px 0 0 ;
+	}
+
+	.floor-info {
+		text-align: left;
 	}
 
 }
