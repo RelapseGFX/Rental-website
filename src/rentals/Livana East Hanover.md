@@ -9,7 +9,7 @@ terrace: 1
 carParking: 2
 floor: 1
 tags: ["post", "featured"]
-image: /assets/rentals/livana-east-hanover.jpg
+image: /assets/rentals/apts-pic2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
   - "Covered parking"

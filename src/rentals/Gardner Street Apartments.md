@@ -8,7 +8,7 @@ squareFeet: 1,100
 terrace: 1
 carParking: 2
 floor: 1
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/rentals/gardner-street-apartments.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
