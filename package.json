@@ -19,5 +19,22 @@
   },
   "dependencies": {
     "nunjucks": "^3.2.4"
-  }
+  },
+  "navItems" : [
+    {
+      "menu_item" : "home"
+    },
+    {
+      "menu_item" : "about"
+    },
+    {
+      "menu_item" : "rentals"
+    },
+    {
+      "menu_item" : "news"
+    },
+    {
+      "menu_item" : "contact"
+    }
+  ]
 }
