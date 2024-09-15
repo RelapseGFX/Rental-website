@@ -8,7 +8,7 @@ layout: 'base.njk'
 
     <section class="hero">
         <div class="container">
-          <div class="hero-content">
+          <div class="hero-content flow">
             <div class="welcome">
               <p class="welcome-tag">Welcome to logoipsum</p>
             </div>
@@ -21,14 +21,17 @@ layout: 'base.njk'
         </div>
     </section>
     <section class="about col">
-        <div class="container">
-                <div class="about-image">
+        <div class="container flow">
+          <div class="about-container">
+            <div class="about-image">
                   <div class="apartment_showcase">
                     <img src="assets/about-image.jpg" class="about_image" alt="">
                   </div>
                   <div class="line_decor"></div>
-                </div>
-                <div class="content flow">
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="content flow">
                   <div class="top_heading">
                     <div><span class="index">// Building Overview</span></div>
                     <h1 class="section-title">Modern spaces & apartments</h1>
@@ -38,8 +41,10 @@ layout: 'base.njk'
                   <div class="flex-group">
                         <a href="#featured-rentals" class="btn btn--primary">Featured Rentals</a>
                   </div>
-                </div>
-                <div class="stats">
+            </div>
+          </div>
+          <div class="stats-container">
+            <div class="stats">
                     <div class="stats-group">
                       <div class="stats-thubnail">
                         <div class="stats-description">
@@ -113,8 +118,9 @@ layout: 'base.njk'
                         </div>
                       </div>
                     </div>
-                </div>
             </div>
+          </div>
+        </div>
         </div>
     </section>
     <section class="our_services">
@@ -241,7 +247,7 @@ layout: 'base.njk'
         </div>
       </div>
     </section>
-    <section class="tour-apartments">
+    <section id="tour-apartments" class="tour-apartments">
       <div class="container">
         <div class="tour-group">
           <div class="image-tour1">
@@ -348,17 +354,17 @@ layout: 'base.njk'
     </section>
     <section id="featured-rentals" class="featured-rentals">
         <div class="container">
-        <div class="upper-part text-center">
-          <span class="index">// Apartments & Complex</span>
-          <h1 class="section-title">Featured Rentals</h1>
-        </div>
-        <ul role="list" class="articles-list">
+          <div class="title-part text-center">
+            <div class="index-container"><span class="index">// Apartments & Complex</span></div>
+            <div class="title-container"><h1 class="section-title">Featured Rentals</h1></div>
+          </div>
+          <ul role="list" class="articles-list">
         
             {%- for post in collections.featured | reverse -%}
               {% include 'article-snippet.njk' %}
             {%- endfor %}
     
-        </ul>
-    </div>
+          </ul>
+        </div>
     </section>
     

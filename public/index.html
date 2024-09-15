@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/style.css">
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="/app.js"></script>
+
 
 </head>
 <body>
@@ -106,6 +106,9 @@
       <li class="nav-link-item"><a href="">Contact Us</a></li>
     </ul>
   </div>
+  <div class="button-container">
+    <a href="" class="btn btn--primary">Schedule a visit</a>
+  </div>
 </div>
 
     <main>
@@ -115,7 +118,7 @@
 
     <section class="hero">
         <div class="container">
-          <div class="hero-content">
+          <div class="hero-content flow">
             <div class="welcome">
               <p class="welcome-tag">Welcome to logoipsum</p>
             </div>
@@ -128,14 +131,17 @@
         </div>
     </section>
     <section class="about col">
-        <div class="container">
-                <div class="about-image">
+        <div class="container flow">
+          <div class="about-container">
+            <div class="about-image">
                   <div class="apartment_showcase">
                     <img src="assets/about-image.jpg" class="about_image" alt="">
                   </div>
                   <div class="line_decor"></div>
-                </div>
-                <div class="content flow">
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="content flow">
                   <div class="top_heading">
                     <div><span class="index">// Building Overview</span></div>
                     <h1 class="section-title">Modern spaces & apartments</h1>
@@ -145,8 +151,10 @@
                   <div class="flex-group">
                         <a href="#featured-rentals" class="btn btn--primary">Featured Rentals</a>
                   </div>
-                </div>
-                <div class="stats">
+            </div>
+          </div>
+          <div class="stats-container">
+            <div class="stats">
                     <div class="stats-group">
                       <div class="stats-thubnail">
                         <div class="stats-description">
@@ -220,8 +228,9 @@
                         </div>
                       </div>
                     </div>
-                </div>
             </div>
+          </div>
+        </div>
         </div>
     </section>
     <section class="our_services">
@@ -348,7 +357,7 @@
         </div>
       </div>
     </section>
-    <section class="tour-apartments">
+    <section id="tour-apartments" class="tour-apartments">
       <div class="container">
         <div class="tour-group">
           <div class="image-tour1">
@@ -455,11 +464,11 @@
     </section>
     <section id="featured-rentals" class="featured-rentals">
         <div class="container">
-        <div class="upper-part text-center">
-          <span class="index">// Apartments & Complex</span>
-          <h1 class="section-title">Featured Rentals</h1>
-        </div>
-        <ul role="list" class="articles-list"><li>
+          <div class="title-part text-center">
+            <div class="index-container"><span class="index">// Apartments & Complex</span></div>
+            <div class="title-container"><h1 class="section-title">Featured Rentals</h1></div>
+          </div>
+          <ul role="list" class="articles-list"><li>
     <article class="snippet">
       <div class="single-card">
         <div class="front">
@@ -560,8 +569,8 @@
     </article>
 </li>
     
-        </ul>
-    </div>
+          </ul>
+        </div>
     </section>
     
     </main>
@@ -697,5 +706,7 @@
           });
         }
       </script>
+
+    <script src="/app.js"></script>
 
 </html>
