@@ -347,6 +347,14 @@ p {
 	text-align: center;
 }
 
+.button-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: .5em;
+	align-items: center;
+}
+
 .nav-link-item > a > .fa-chevron-down {
 	display: inline-block;
 	height: 16px;
