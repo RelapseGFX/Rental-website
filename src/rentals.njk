@@ -3,17 +3,39 @@ title: Rentals
 layout: 'base.njk'
 ---
 
-<section class="recent-rentals">
-    <div class="container">
-      <div class="upper-part flow">
-            <h1 class="section-title">Recent Rentals</h1>
-      </div>
-      <ul role="list" class="articles-list">
-        
-        {%- for post in collections.post | reverse -%}
-          {% include 'article-snippet.njk' %}
-        {%- endfor %}
 
-      </ul>
+<section id="subpage-thefold" class="subpage-thefold">
+  <div class="rentals-background"></div>
+  <div class="container">
+    <div class="subpage-content-widget">
+      <div class="breadcrumb-content">
+        <ul class="breadcrumb">
+        <li>
+          <a href="/index">Home</a>
+        </li>
+        <li>
+          <span class="seperator">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </li>
+        <li style="font-weight: 700;">Apartments</li>
+        </ul>
+      </div>
+      <h1 class="section-title">Apartments</h1>
     </div>
+  </div>
+</section>
+<section class="recent-listings">
+  <div class="container">
+      
+    <ul role="list" class="articles-list">
+        
+      {%- for post in collections.post | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor %}
+
+    </ul>
+
+  </div>
+</section>
         

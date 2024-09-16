@@ -1,15 +1,38 @@
 ---
 layout: 'base.njk'
 ---
+<section id="subpage-thefold" class="subpage-thefold">
+  <div class="rentals-background"></div>
+  <div class="container">
+    <div class="subpage-content-widget">
+      <div class="breadcrumb-content">
+        <ul class="breadcrumb">
+        <li>
+          <a href="/index">Home</a>
+        </li>
+        <li>
+          <span class="seperator">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </li>
+        <li>
+          <a href="/rentals">Apartments</a>
+        </li>
+        <li>
+          <span class="seperator">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </li>
+        <li style="font-weight: 700;">{{ title }}</li>
+        </ul>
+      </div>
+      <h1 class="section-title">{{ title }}</h1>
+    </div>
+  </div>
+</section>
 
     <section class="overview-rental">
       <div class="container">
-        <div class="upper-part flow">
-          <span class="tag-rental">For Rent</span>
-          <h1 class="rental-title">{{ title }}</h1>
-          <p>{{ location }}</p>
-          <p>Price <span style="font-weight: 700">{{ price }}</span></p>
-        </div>
         <div class="info-rental">
           <div>
             <img src="{{ image }}" class="rental_image" alt="{{ imageAlt }}">
@@ -79,27 +102,18 @@ layout: 'base.njk'
           </div>
         </div>
         <div class="google-maps"><iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1467.629055987022!2d21.167318419045586!3d42.63468777820855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f36fc6eca45%3A0xa25707a35a50e95f!2sPrishtina%20Premium%20Residence!5e0!3m2!1sen!2s!4v1723212296521!5m2!1sen!2s" width="870" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <div class="recent-listings">
-          <h1 class="section-title">Recent Rentals</h1>
-          <ul role="list" class="articles-list">
-        
-            {%- for post in collections.post | reverse -%}
-              <li>
-                <article class="snippet">
-                    <a href="{{ post.url }}"><image src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image"></image></a>
-                    <h2 class="snippet-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-                    <p>{{ post.data.location }}</p>
-                    <div class="flex-group">
-                      <div class="amenities-group"><span>{{ post.data.bedrooms }}</span><span>Beds</span></div>
-                      <div class="amenities-group"><span>{{ post.data.bathrooms }}</span><span>Baths</span></div>
-                      <div class="amenities-group"><span>{{ post.data.squareFeet }}</span><span>ft2</span></div>
-                      <div class="amenities-group"><span>{{ post.data.terrace }}</span><span>Terra</span></div>
-                    </div>
-                    <p><span>from <span class="snippet-price">{{ post.data.price }}</span></span>
-                </article>
-              </li>
-            {%- endfor %}
-    
-          </ul>
-        </div>
     </section>
+    <section id="featured-rentals" class="featured-rentals dedicated">
+      <div class="container">
+        <h1 class="section-title">Featured Rentals</h1>
+      
+        <ul role="list" class="articles-list">
+      
+          {%- for post in collections.featured | reverse -%}
+            {% include 'article-snippet.njk' %}
+          {%- endfor %}
+  
+        </ul>
+      </div>
+  </section>
+
