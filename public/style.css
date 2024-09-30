@@ -1044,7 +1044,23 @@ a svg {
 }
 
 .floor-info {
-	text-align: center;
+	position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	display: flex;
+
+	.floor-info-description {
+		margin-bottom: 20px;
+	}
+}
+
+.calltoAction {
+	width: 100%;
+}
+
+.floor-info .floor-info-description p {
+	margin-bottom: 25px;
 }
 
 .floor-info p {
@@ -2322,7 +2338,8 @@ ul.breadcrumb{
 	}
 
 	.floor-info {
-		text-align: left;
+		align-items: center;
+		align-content: center;
 	}
 
 	.article-image {
@@ -2484,6 +2501,10 @@ ul.breadcrumb{
 
 	.tabs-container .tabs__panels {
 		padding: 90px 0 0 0;
+	}
+
+	.plan-wrapper {
+		margin: 0 20px;
 	}
 	
 }
