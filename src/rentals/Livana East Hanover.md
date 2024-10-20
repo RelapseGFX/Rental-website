@@ -1,10 +1,10 @@
 ---
-title: Livana East Hanover
+title: Apartment 131 m²
 location: 72 Eagle Rock Ave, East Hanover, NJ 07936
 price: $1,200/month
 bedrooms: 2
 bathrooms: 1.5
-squareFeet: 1,100
+squareMetre: 131
 terrace: 1
 carParking: 2
 floor: 1
@@ -17,12 +17,14 @@ amenities:
   - "Swimming pool"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor lacus eu neque dapibus, vitae posuere libero fermentum. Nulla fermentum dignissim erat non fermentum. Suspendisse elit nunc, tempus pulvinar urna sed, ultrices congue ligula. Etiam egestas consequat est, interdum dapibus purus porttitor sed. Mauris placerat vehicula laoreet. Aenean sed mauris id est pulvinar ullamcorper sit amet eu justo. Nullam tellus ex, tincidunt quis lacinia sed, porttitor sit amet risus. Mauris ac massa tellus. In ac erat non mi suscipit fermentum at sit amet mi.
+Welcome to this expansive 131 m² apartment located in the tranquil neighborhood of Prishtina e Re, situated within a newly constructed building. Perched on the 10th floor and oriented towards the west, this apartment not only provides breathtaking views of the sunset but also benefits from an abundance of natural light throughout the day.
 
-Cras id massa eget purus cursus interdum quis eu risus. Ut sit amet orci ac sapien gravida posuere. Suspendisse blandit felis eu mollis convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum maximus, neque id congue consequat, orci quam tristique ipsum, eget pretium turpis risus id nisi. Donec ligula orci, porttitor sed sagittis id, pulvinar in tellus. Phasellus dictum velit at ligula vestibulum, non ornare tortor pellentesque. Aliquam at arcu purus. Integer ac diam ac arcu ultricies venenatis eu eget sem.
+The apartment boasts a well-designed layout that includes a cozy living room seamlessly integrated with an open kitchen, creating an inviting space perfect for family gatherings and entertaining guests. The living area flows onto a spacious balcony, ideal for enjoying your morning coffee or unwinding in the evening. With three generously sized bedrooms, this apartment comfortably accommodates families of up to six members, offering plenty of personal space for everyone. The two modern bathrooms are thoughtfully designed, enhancing convenience and privacy for all occupants.
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sit amet nulla nec quam aliquam pulvinar. Etiam eu ex quis enim posuere imperdiet. Phasellus id dignissim nulla. Suspendisse ut quam ipsum. Suspendisse ut nulla urna. Mauris eget sagittis turpis. Nam imperdiet viverra dui at sollicitudin. Vestibulum leo ligula, hendrerit eu lectus vel, condimentum tempus quam. Proin volutpat mattis blandit. Morbi ut efficitur nisl. Nulla porta turpis nisi, id mattis elit efficitur eu. Cras turpis magna, vestibulum sed enim ac, vulputate sodales quam. Morbi viverra eu diam eu rutrum. Vivamus ut tellus a ante varius facilisis at sit amet ex.
+Comfort is at the forefront of this apartment's amenities. It features an efficient electric heating system, ensuring warmth during the colder months, as well as air conditioning that can cool the space during the summer heat. This dual climate control system makes it a comfortable living environment year-round.
 
-Praesent sit amet ipsum malesuada, convallis augue ut, pharetra tellus. Etiam placerat malesuada pulvinar. Nam ipsum odio, semper eu ligula vitae, fermentum scelerisque diam. Suspendisse vel malesuada mauris. Integer non lorem purus. Maecenas porta, augue ultricies rhoncus eleifend, arcu leo ornare leo, vitae aliquet erat metus sit amet erat. Sed sit amet eros non augue bibendum consequat vitae quis ante. Duis eu suscipit eros. Mauris euismod ante ut velit posuere, eu pharetra lorem semper. Sed et dignissim mauris, at elementum neque. Nunc molestie mi nec nisi ornare facilisis.
+Parking is hassle-free, with free options available around the building. Additionally, there is an underground parking facility that can be rented for an extra fee, providing further convenience for those with vehicles.
 
-Nulla facilisi. Duis porttitor dui non finibus viverra. Nullam at tortor eu felis sagittis dapibus. Nulla id dictum ante, sed consectetur elit. Donec quis enim ut sapien consequat accumsan. Phasellus sit amet sodales diam. Ut quis tempor justo, in pellentesque lorem. Vivamus eros arcu, lacinia nec semper vel, lobortis ut augue. Nam tortor arcu, suscipit vitae quam non, porta pharetra justo. Phasellus a tellus nec augue dictum dapibus ut et arcu. Pellentesque sit amet bibendum libero. Vivamus in condimentum lacus.
+The location of this apartment is truly exceptional. Within a short distance, you’ll find Albi Mall, offering a variety of shopping and dining options, as well as the University Clinical Center of Kosovo, the courthouse, and easy access to the highway. This means that you are not only well-connected to the city’s amenities but also have quick access to major transportation routes.
+
+This apartment is available for monthly rental and requires a minimum lease of one year, providing you with a secure and stable living arrangement. With its perfect blend of comfort, convenience, and modern living, this apartment is an ideal choice for families looking to settle in a vibrant yet peaceful community. Don’t miss out on the opportunity to make this lovely space your home!

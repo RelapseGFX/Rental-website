@@ -44,7 +44,7 @@ function collapseDropdownMenu() {
 }
 })();
 
-const tabsContainer = document.querySelector(".tabs-container");
+const tabsContainer = document.querySelector(".tabs-container"); 
 const tabsList = tabsContainer.querySelector(".tabs-list");
 const tabButtons = tabsList.querySelectorAll(".tabs-button");
 const tabPanels = tabsContainer.querySelectorAll(".tabs__panels > div");
@@ -59,7 +59,6 @@ tabButtons.forEach((tab, index) => {
   tab.setAttribute("role", "tab");
   if (index === 0) {
     tab.setAttribute("aria-selected", "true");
-    // we'll add something here
   } else {
     tab.setAttribute("tabindex", "-1");
     tabPanels[index].setAttribute("hidden", "");
@@ -71,14 +70,25 @@ tabPanels.forEach((panel) => {
   panel.setAttribute("tabindex", "0");
 });
 
+// Click event listener
 tabsContainer.addEventListener("click", (e) => {
   const clickedTab = e.target.closest("a");
   if (!clickedTab) return;
-  e.preventDefault();
 
-  switchTab(clickedTab);
+  // Check if the clicked element is a tab button
+  if (clickedTab.classList.contains("tabs-button")) {
+    e.preventDefault();
+    switchTab(clickedTab);
+  }
+
+  // Check if the clicked element is a "Schedule a visit" button
+  if (clickedTab.closest('.calltoAction')) {
+    // This will let the link navigate to the contact page
+    return;
+  }
 });
 
+// Keyboard navigation
 tabsContainer.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowLeft":
@@ -103,9 +113,7 @@ function moveLeft() {
   if (!currentTab.parentElement.previousElementSibling) {
     switchTab(tabButtons[tabButtons.length - 1]);
   } else {
-    switchTab(
-      currentTab.parentElement.previousElementSibling.querySelector("a")
-    );
+    switchTab(currentTab.parentElement.previousElementSibling.querySelector("a"));
   }
 }
 
@@ -135,5 +143,21 @@ function switchTab(newTab) {
   newTab.setAttribute("aria-selected", true);
   newTab.setAttribute("tabindex", "0");
   newTab.focus();
+}
+
+
+  const body = document.querySelector('body');
+    
+document.addEventListener('scroll' , () => {
+  const header = document.querySelector('header');
+
+  if (window.scrollY > 0) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
   }
+
+});
+
+
 

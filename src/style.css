@@ -78,6 +78,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none; /* Removes the outline on focus */
+}
+
 * {
 	text-decoration: none;
 }
@@ -223,8 +233,15 @@ a svg {
 	color: #838b83;
 }
 
-.contact-info {
-	margin-bottom: 25px;
+.contactWrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-details {
+	margin-bottom: 10px;
+	padding: 0.005px;
+	width: 100%;
 }
 
 .contact-wrapper .contact-icon {
@@ -375,13 +392,27 @@ a svg {
 
 /* HEADER */
 
+.container-header {
+	display: flex;
+	height: 100%;
+	padding: 0 30px;
+	background-color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+	.container-header {
+		display: none;
+	}
+}
+
 .nav-container {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	background-color: #F6F7F9;
 	align-items: center;
-	padding: 0 3rem;
+	padding: 0 30px;
+	height: 90px;
 }
 
 .nav-logo {
@@ -506,10 +537,6 @@ a svg {
 }
 
 @media ( max-width: 992px ) {
-
-	.nav-container {
-		padding: 0 3rem;
-	}
 
 	.nav-container .nav-links-container {
 		position: fixed;
@@ -808,63 +835,6 @@ a svg {
 	}
 }
 
-.play-button {
-	transition: all .3s ease;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: nowrap;
-	background: rgba(255, 255, 255, 0.1);
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-
-	@media (max-width: 767px) {
-		width: 90px;
-		height: 90px;
-	}
-
-	i {
-		display: inline-flex;
-		font-size: 20px;
-		z-index: 1;
-		color: #fff;
-		@media (max-width:767px) {
-			font-size: 14px;
-		}
-	}
-
-	&::before {
-		position: absolute;
-		content: "";
-		border-radius: 50%;
-		transform: translate(-50%, -50%);
-		width: 85%;
-		height: 85%;
-		background-color: rgba(195, 158, 118, 0.2);
-		animation: pulseAnimate 2.5s ease-out infinite;
-	}
-
-	&::after {
-		position: absolute;
-		content: "";
-		border-radius: 50%;
-		transform: translate(-50%, -50%);
-		width: 60%;
-		height: 60%;
-		background-color: var(--clr-primary-400);
-		animation: pulseAnimate 2.5s ease-out infinite;
-	}
-}
-
-@keyframes pulseAnimate {
-	100% {
-		opacity: 0;
-		transform: scale(2);
-	}
-}
-
 .index {
 	color: var(--clr-primary-400);
 	font-weight: var(--fw-700);
@@ -883,11 +853,12 @@ a svg {
 	text-align: center;
 }
 
-.video-thubnail {
+.my-video {
 	position: relative;
 	display: flex;
 	margin: 0 auto;
 	max-width: 1035px;
+	height: 650px;
 	border: 15px solid white;
 	box-sizing: border-box;
 	box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
@@ -917,13 +888,6 @@ a svg {
 	.container {
 		padding: 0 10px;
 	}
-}
-
-.play-button {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .heading-title {
@@ -1261,7 +1225,6 @@ a svg {
 }
 
 .title-navlist {
-	display: inline-block;
 	margin-bottom: 20px;
 	word-spacing: 2px;
 }
@@ -1282,12 +1245,8 @@ a svg {
 	text-transform: none;
 }
 
-.logo-footer {
-	margin-bottom: 40px;
-}
-
 .split-screen1, .split-screen2 {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .contact-details .title {
@@ -1297,13 +1256,14 @@ a svg {
 	margin-bottom: 15px;
 }
 
-.location {
-	color: #838b83;
-}
-
 .line-group {
 	display: inline-flex;
-	gap: .5em;
+	width: 100%;
+}
+
+.contactIcon {
+	display: inline-flex;
+	margin-right: 16px;
 }
 
 .line-group:nth-child(1) {
@@ -1347,6 +1307,8 @@ a svg {
 }
 
 .footer-top {
+	display: flex;
+	flex-wrap: wrap;
 	margin-bottom: 60px;
 }
 
@@ -1354,7 +1316,13 @@ a svg {
 	margin-bottom: 40px;
 
 	a {
-		color: var(--clr-neutral-100);
+		display: none;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	span {
+		margin-right: 4px;
 	}
 }
 
@@ -1425,6 +1393,15 @@ a svg {
 
 .footer-left {
 	width: 100%;
+	margin-bottom: 40px;
+}
+
+.footer-middle {
+	width: 100%;
+}
+
+.logo-footer {
+	display: flex;
 }
 
 .snippet-title {
@@ -1443,7 +1420,7 @@ a svg {
 	display: grid;
 	grid-template-columns: auto;
 	gap: 36px 24px;
-	padding: 10px 0 0 0;
+	padding: 40px 0;
 }
 
 .article_image {
@@ -1539,25 +1516,18 @@ section,
 	box-sizing: border-box;
 }
 
-.header-wrapper {
-    display: flex;
-    justify-content: space-between;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    transition: .3s;
 }
 
-.header-page {
-	padding: 1.9167em 0;
-	background: #F6F7F9;
-}
-
-.header-page scrolled {
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-
-.nav-container {
-	padding: 0 30px;
-	height: 90px;
+.header.scrolled {
+    background: var(--background-color);
+    box-shadow: 0 7px 29px rgba(13, 18, 25, 0.07);
 }
 
 .left-side {
@@ -1566,6 +1536,10 @@ section,
 
 .middle-side {
 	width: 65.5%;
+}
+
+main {
+	padding-top: 90px;
 }
 
 .hero-section {
@@ -1615,10 +1589,6 @@ section,
 
 .transparent {
 	background: transparent;
-}
-
-.company-header {
-	display: none;
 }
 
 .nav-list a {
@@ -1780,7 +1750,16 @@ textarea {
 }
 
 .location {
+	display: block;
 	width: 100%;
+	margin-bottom: 12px;
+	color: var(--clr-neutral-300);
+	transition: .3s ease all;
+	white-space: pre-line;
+}
+
+.location:hover {
+	color: var(--clr-neutral-100);
 }
 
 .individual {
@@ -1890,7 +1869,7 @@ ul.breadcrumb{
 }
 
 .featured-rentals .container .section-title {
-	padding: 0 0 16px 0;
+	margin: 0 0 30px 0;
 }
 
 .result {
@@ -1971,6 +1950,8 @@ ul.breadcrumb{
 	margin-bottom: 20px;
 }
 
+
+
 /* Tabs */
 
 [role="tablist"] {
@@ -1997,6 +1978,7 @@ ul.breadcrumb{
 	color: var(--clr-neutral-100);
 	border-radius: 7px;
 }
+
 
 @media only screen and (min-width: 480px) {
 
@@ -2163,7 +2145,7 @@ ul.breadcrumb{
 		}
 	}
 
-	.video-thubnail {
+	.my-video {
 		border: 30px solid #fff;
 	}
 
@@ -2196,17 +2178,6 @@ ul.breadcrumb{
 	.articles-list {
 		grid-template-columns: repeat(3, 2fr);;
     } 
-
-	.company-header {
-		display: block;
-		padding: 0 1.665em;
-		background: white;
-	}
-
-	.container-header {
-		display: flex;
-		height: 100%;
-	}
 
 	.company-side-left {
 		flex-wrap: wrap;

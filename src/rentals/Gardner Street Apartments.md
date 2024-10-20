@@ -4,7 +4,7 @@ location: 75-84 Gardner St, Allston, MA 02134
 price: $1,200/month
 bedrooms: 2
 bathrooms: 1.5
-squareFeet: 1,100
+squareMetre: 1,100
 terrace: 1
 carParking: 2
 floor: 1
