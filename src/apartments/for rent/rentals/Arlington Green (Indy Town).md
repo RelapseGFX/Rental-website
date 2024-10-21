@@ -1,15 +1,15 @@
 ---
-title: Gardner Street Apartments
-location: 75-84 Gardner St, Allston, MA 02134
+title: Arlington Green (Indy Town)
+location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
 bedrooms: 2
 bathrooms: 1.5
-squareMetre: 1,100
+squareArea: 1,100
 terrace: 1
 carParking: 2
 floor: 1
 tags: ["post"]
-image: /assets/rentals/gardner-street-apartments.jpg
+image: /assets/rentals/arlington-green (indy-town).jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
   - "Covered parking"

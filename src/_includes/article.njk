@@ -34,29 +34,29 @@ layout: 'base.njk'
     <section class="overview-rental">
       <div class="container">
         <div class="info-rental">
-          <div>
+          <div class="articleImage">
             <img src="{{ image }}" class="rental_image" alt="{{ imageAlt }}">
           </div>
           <div class="content-rental">
             <div class="details-rental">
-                <h2 class="title-details">{{ squareFeet }}</h2>
-                <p>Square Area</p>
+                <span class="value">{{ squareArea }} <sup>m²</sup></span>
+                <span class="label1">Square Area</span>
             </div>
             <div class="details-rental">
-                <h2 class="title-details">{{ floor }}</h2>
-                <p>Floor</p>
+                <span class="value">{{ floor }}</span>
+                <span class="label1">Floor</span>
             </div>
             <div class="details-rental">
-                <h2 class="title-details">{{ bedrooms }}</h2>
-                <p>Bedrooms</p>
+                <span class="value">{{ bedrooms }}</span>
+                <span class="label1">Bedrooms</span>
             </div>
             <div class="details-rental">
-                <h2 class="title-details">{{ bathrooms }}</h2>
-                <p>Bathrooms</p>
+                <span class="value">{{ bathrooms }}</span>
+                <span class="label1">Bathrooms</span>
             </div>
             <div class="details-rental">
-                <h2 class="title-details">{{ carParking }}</h2>
-                <p>Car parking</p>
+                <span class="value">{{ carParking }}</span>
+                <span class="label1">Car parking</span>
             </div>
           </div>
         </div>

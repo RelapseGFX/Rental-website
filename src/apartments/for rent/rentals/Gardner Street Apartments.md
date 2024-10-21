@@ -1,17 +1,17 @@
 ---
-title: Harbor Crest
-location: 201 17th St S, Saint Petersburg, FL 33712
+title: Gardner Street Apartments
+location: 75-84 Gardner St, Allston, MA 02134
 price: $1,200/month
 bedrooms: 2
 bathrooms: 1.5
-squareMetre: 1,100
+squareArea: 1,100
 terrace: 1
 carParking: 2
 floor: 1
 tags: ["post"]
-image: /assets/rentals/harbor-crest.jpg
+image: /assets/rentals/gardner-street-apartments.jpg
 imageAlt: View of the living room with large windows overlooking the lake
-amenities:
+amenities: 
   - "Covered parking"
   - "Pet-friendly"
   - "Swimming pool"
