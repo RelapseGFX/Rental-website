@@ -1,6 +1,6 @@
 ---
 title: Rentals
-layout: 'base.njk'
+layout: '/base.njk'
 ---
 
 
@@ -30,7 +30,7 @@ layout: 'base.njk'
       
     <ul role="list" class="articles-list">
         
-      {%- for post in collections.post | reverse -%}
+      {%- for post in collections.rentals | reverse -%}
         {% include 'article-snippet.njk' %}
       {%- endfor %}
 

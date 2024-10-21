@@ -1,5 +1,5 @@
 ---
-title: Apartment 53 m²
+title: Premise 260 m2
 location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
 bedrooms: 2
@@ -8,8 +8,8 @@ squareArea: 1,100
 terrace: 1
 carParking: 2
 floor: 1
-tags: ["post", "featured", "rentals"]
-image: /assets/rentals/orangeApartment.jpg
+tags: ["post", "sale"]
+image: /assets/rentals/Premise260m2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
   - "Covered parking"

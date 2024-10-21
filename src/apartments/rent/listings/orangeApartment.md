@@ -8,7 +8,7 @@ squareArea: 1,100
 terrace: 1
 carParking: 2
 floor: 1
-tags: ["post", "featured"]
+tags: ["post", "featured", "rentals"]
 image: /assets/rentals/Apartment92m2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 

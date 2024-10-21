@@ -30,7 +30,7 @@ layout: '/base.njk'
       
     <ul role="list" class="articles-list">
         
-      {%- for post in collections.post | reverse -%}
+      {%- for post in collections.rent -%}
         {% include 'article-snippet.njk' %}
       {%- endfor %}
 
