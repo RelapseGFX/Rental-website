@@ -455,7 +455,7 @@ layout: 'base.njk'
           </div>
           <ul role="list" class="articles-list">
         
-            {%- for post in collections.featured | reverse -%}
+            {%- for post in collections.featured -%}
               {% include 'article-snippet.njk' %}
             {%- endfor %}
     
