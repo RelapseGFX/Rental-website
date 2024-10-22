@@ -4,7 +4,7 @@ location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
 bedrooms: 2
 bathrooms: 1.5
-squareArea: 1,100
+squareArea: 53
 terrace: 1
 carParking: 2
 floor: 1

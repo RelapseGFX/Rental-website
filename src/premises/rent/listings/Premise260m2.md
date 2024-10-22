@@ -17,8 +17,10 @@ amenities:
   - "Swimming pool"
 ---
 
-This charming 53 m² apartment is located on the 7th floor in the vibrant neighborhood of Prishtina e Re. As part of a newly constructed building, it offers modern living with comfort and convenience. The apartment features a spacious living room and kitchen, one bedroom, a bathroom, and a balcony, perfect for relaxing and enjoying the view.
+Located in the dynamic neighborhood of Prishtina e Re, this modern commercial space spans an impressive 258 m² and is oriented to the south, ensuring plenty of natural light throughout the day. With a ceiling height of 4.20 m, the locale offers a spacious environment that can accommodate various business needs, particularly ideal for storage or warehousing.
 <br><br>
-Available for daily and weekly rental, this apartment is ideal for short-term stays. The outdoor parking is free and offers ample space for vehicles. Situated in a quiet area, it’s just a 7-10 minute drive from the city center.
+The layout includes a restroom, and there’s potential for customization to meet specific requirements. The space features a welcoming entrance that leads into the main area, providing flexibility for different business operations.
 <br><br>
-Additionally, the apartment is conveniently located near Albi Mall, the University Clinical Center of Kosovo, the courthouse, and the highway, providing easy access to numerous amenities and attractions. Whether you're looking for a getaway or a longer stay, this apartment provides the perfect retreat.
+Equipped with electric heating beneath the laminate flooring, this local ensures a comfortable atmosphere year-round. It is designed to meet all necessary standards for a modern business environment.
+<br><br>
+This property is available for lease with a minimum one-year contract, making it a great option for those looking to establish or expand their business. Additionally, it is also offered for sale for interested buyers. With its prime location and ample space, this local presents an excellent opportunity for entrepreneurs in the area.
