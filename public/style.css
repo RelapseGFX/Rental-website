@@ -2196,6 +2196,7 @@ ul.breadcrumb{
 [role="tablist"] {
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	gap: .5em;
 }
 
