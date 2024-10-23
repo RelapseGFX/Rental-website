@@ -2,19 +2,18 @@
 title: Apartment 131 m²
 location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
-bedrooms: 2
-bathrooms: 1.5
+bedrooms: 3
+bathrooms: 2
 squareArea: 131
-terrace: 1
+balcony: 1
 carParking: 2
-floor: 1
+floor: 10
+mapSrc: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d733.7999824918692!2d21.161597064487445!3d42.63592133251544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f5a1b3180e9%3A0x5e08c7f4004baa33!2sKompleksi%20MELIA!5e0!3m2!1sen!2s!4v1729642680054!5m2!1sen!2s
 tags: ["post", "featured", "rentals"]
 image: /assets/rentals/Apartment131m2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
-  - "Covered parking"
-  - "Pet-friendly"
-  - "Swimming pool"
+  - "Outdoor parking"
 ---
 
 Welcome to this expansive 131 m² apartment located in the tranquil neighborhood of Prishtina e Re, situated within a newly constructed building. Perched on the 10th floor and oriented towards the west, this apartment not only provides breathtaking views of the sunset but also benefits from an abundance of natural light throughout the day.

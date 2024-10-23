@@ -3,18 +3,17 @@ title: Apartment 95 m²
 location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
 bedrooms: 2
-bathrooms: 1.5
+bathrooms: 1
 squareArea: 95
-terrace: 1
+balcony: 1
 carParking: 2
-floor: 1
+floor: 3
+mapSrc: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d733.7999824918692!2d21.161597064487445!3d42.63592133251544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f5a1b3180e9%3A0x5e08c7f4004baa33!2sKompleksi%20MELIA!5e0!3m2!1sen!2s!4v1729642680054!5m2!1sen!2s
 tags: ["post", "featured", "rentals"]
 image: /assets/rentals/Apartment92m2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
-  - "Covered parking"
-  - "Pet-friendly"
-  - "Swimming pool"
+  - "Outdoor parking"
 ---
 
 Welcome to this charming 95 m² apartment located in the peaceful neighborhood of Prishtina e Re, in a newly constructed building. With a thoughtful design, this modern apartment is perfect for families of 4 to 5 members.

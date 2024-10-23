@@ -1,20 +1,20 @@
 ---
-title: Premise131m2
+title: Premise 131 m2
 location: 6046 E 21st St, Indianapolis, IN 46219
 price: $1,200/month
 bedrooms: 2
-bathrooms: 1.5
+bathrooms: 1
 squareArea: 131
 terrace: 1
 carParking: 2
-floor: 1
+floor: 0
+height: 4.20
+entrance: 1
 tags: ["post", "rent"]
 image: /assets/rentals/Premise131m2.jpg
 imageAlt: View of the living room with large windows overlooking the lake
 amenities: 
-  - "Covered parking"
-  - "Pet-friendly"
-  - "Swimming pool"
+  - "Outdoor parking"
 ---
 
 Located in the vibrant neighborhood of Prishtina e Re, this modern commercial space offers a versatile opportunity for various businesses. Spanning 131 m² with a ceiling height of 4.20 m, the locale features an inviting entrance composed of expansive glass windows that reach 4 m high, flooding the area with natural light.
