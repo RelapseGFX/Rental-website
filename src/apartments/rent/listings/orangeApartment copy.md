@@ -8,6 +8,7 @@ squareArea: 131
 balcony: 1
 carParking: 2
 floor: 10
+sup: th
 mapSrc: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d733.7999824918692!2d21.161597064487445!3d42.63592133251544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f5a1b3180e9%3A0x5e08c7f4004baa33!2sKompleksi%20MELIA!5e0!3m2!1sen!2s!4v1729642680054!5m2!1sen!2s
 tags: ["post", "featured", "rentals"]
 image: /assets/rentals/Apartment131m2.jpg

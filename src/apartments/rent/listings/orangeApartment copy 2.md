@@ -8,6 +8,7 @@ squareArea: 53
 balcony: 1
 carParking: 2
 floor: 7
+sup: th
 mapSrc: https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d733.8053830897211!2d21.16255745344239!3d42.63546332962695!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1729643359719!5m2!1sen!2s
 tags: ["post", "featured", "rentals"]
 image: /assets/rentals/orangeApartment.jpg
